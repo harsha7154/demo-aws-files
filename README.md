@@ -38,50 +38,72 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
 1. Select the volume by checking its checkbox
 2. Click the "Actions" button
 3. Select "Create snapshot" from the dropdown menu
-4. ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
-5. In the "Create snapshot" dialog:
+4. 
+5. ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
+6. 
+7. In the "Create snapshot" dialog:
    - Enter a descriptive name for the snapshot
    - Add tags if needed (recommended for organization)
-6. Click "Create snapshot"
+8. Click "Create snapshot"
 
 ### Step 5: Verify Snapshot Creation
 1. In the left sidebar, click "Snapshots" under "Elastic Block Store"
+2. 
    ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
-3. Your new snapshot will appear in the list (it may take a few moments)
-4. The status will change from "pending" to "completed" when ready
+   
+4. Your new snapshot will appear in the list (it may take a few moments)
+5. The status will change from "pending" to "completed" when ready
+6. 
    ![AWS Snapshot Example](./images/pending.png "Creating a snapshot")
+   
    ![AWS Snapshot Example](./images/snapcomple.png "Creating a snapshot")
 
 ## Creating an AMI (Instance Snapshot)
 
 ### Step 1: Navigate to Instances
 1. In the EC2 Dashboard, click "Instances" in the left sidebar
+2. 
    ![AWS Snapshot Example](./images/ec21.png "Creating a snapshot")
 
 ### Step 2: Select Your Instance
 1. Check the box next to the instance you want to snapshot
+2. 
    ![AWS Snapshot Example](./images/ec2ins1.png "Creating a snapshot")
+   
 
 ### Step 3: Create Image
 1. Click "Actions" button
+2. 
    ![AWS Snapshot Example](./images/action2.png "Creating a snapshot")
-3. Navigate to "Image and templates" > "Create image"
+   
+4. Navigate to "Image and templates" > "Create image"
+5. 
    ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
-4. In the "Create image" dialog:
+   
+7. In the "Create image" dialog:
    - Enter an image name
    - Add description (optional but recommended)
    - Configure other options as needed
+     
   ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
-5. Click "Create image"
+
+8. Click "Create image"
+9. 
    ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
 
 ### Step 4: Check AMI Status
 1. In the left sidebar, click "AMIs" under "Images"
+2. 
    ![AWS Snapshot Example](./images/image.png "Creating a snapshot")
+   
    ![AWS Snapshot Example](./images/imagediscription.png "Creating a snapshot")
-3. Your new AMI will appear with status "pending"
+   
+4. Your new AMI will appear with status "pending"
+5. 
    ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
-5. Wait for status to change to "available" before use
+   
+7. Wait for status to change to "available" before use
+8. 
    ![AWS Snapshot Example](./images/imgsuccess.png "Creating a snapshot")
 
 ## Additional Resources

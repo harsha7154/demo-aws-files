@@ -40,17 +40,17 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
 ![AWS Snapshot Example](./images/ec2ins1.png "Creating a snapshot")
 
 ### Step 3: Locate Your EBS Volume
-1. In the EC2 Dashboard, find the "Elastic Block Store" section in the left sidebar
 
-2.select the "storage" option.
+
+1.scroll the tab ,then select the "storage" option.
 
 ![AWS Snapshot Example](./images/storage1.png "Creating a snapshot")
 
-3. Click on "Volumes"
+2. Click on "Volumes"
    
    ![AWS Snapshot Example](./images/selectvol1.png "Creating a snapshot")
    
-4. Identify the volume you want to snapshot from the list
+3. Identify the volume you want to snapshot from the list
 
 ### Step 4: Create the Snapshot
 1. Select the volume by checking its checkbox

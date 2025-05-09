@@ -29,7 +29,7 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
    ![AWS Snapshot Example](https://github.com/harsha7154/demo-aws-files/blob/main/images/loginaws.jpeg?raw=true)
 
 ### Step 2: Navigate to EC2 Dashboard
-1. From the AWS Services menu, select "EC2" under "Compute"
+1. From the AWS Services menu, select "EC2" .
 
 2. ec2 dash board.
    

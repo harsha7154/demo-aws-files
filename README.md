@@ -59,7 +59,11 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
  ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
  
 4. In the "Create snapshot" dialog:
+   
    - Enter a descriptive name for the snapshot
+     
+  ![AWS Snapshot Example](./images/created1.png "Creating a snapshot")
+     
    - Add tags if needed (recommended for organization)
 
      ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")

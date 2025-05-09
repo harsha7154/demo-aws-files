@@ -1,4 +1,4 @@
-# AWS EC2 Snapshot Creation Guide
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/fd23c13c-1b5e-4a81-9a3b-4df9da9a183b" /># AWS EC2 Snapshot Creation Guide
 
 This guide provides step-by-step instructions for creating snapshots of your Amazon EC2 instances and EBS volumes.
 
@@ -25,35 +25,57 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
 ### Step 1: Log in to AWS Console
 1. Go to [AWS Management Console](https://aws.amazon.com/console/)
 2. Sign in with your credentials
+   
+   ![AWS Snapshot Example](./images/credlogin.png "Creating a snapshot")
 
 ### Step 2: Navigate to EC2 Dashboard
 1. From the AWS Services menu, select "EC2" under "Compute"
+   
+   ![AWS Snapshot Example](./images/ec21.png "Creating a snapshot")
 
 ### Step 3: Locate Your EBS Volume
 1. In the EC2 Dashboard, find the "Elastic Block Store" section in the left sidebar
-2. Click on "Volumes"
-3. Identify the volume you want to snapshot from the list
+
+2.select the "storage" option.
+
+![AWS Snapshot Example](./images/storage1.png "Creating a snapshot")
+
+3. Click on "Volumes"
+   
+   ![AWS Snapshot Example](./images/selectvol1.png "Creating a snapshot")
+   
+4. Identify the volume you want to snapshot from the list
 
 ### Step 4: Create the Snapshot
 1. Select the volume by checking its checkbox
+
+
 2. Click the "Actions" button
+   ![AWS Snapshot Example](./images/action2.png "Creating a snapshot")
+   
+ 
 3. Select "Create snapshot" from the dropdown menu
-4. 
-5. ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
-6. 
-7. In the "Create snapshot" dialog:
+ 
+ ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
+ 
+4. In the "Create snapshot" dialog:
    - Enter a descriptive name for the snapshot
    - Add tags if needed (recommended for organization)
-8. Click "Create snapshot"
+
+     ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
+     
+5. Click "Create snapshot"
 
 ### Step 5: Verify Snapshot Creation
 1. In the left sidebar, click "Snapshots" under "Elastic Block Store"
-2. 
+
+
+
    ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
    
-4. Your new snapshot will appear in the list (it may take a few moments)
-5. The status will change from "pending" to "completed" when ready
-6. 
+2. Your new snapshot will appear in the list (it may take a few moments)
+3. The status will change from "pending" to "completed" when ready
+   
    ![AWS Snapshot Example](./images/pending.png "Creating a snapshot")
    
    ![AWS Snapshot Example](./images/snapcomple.png "Creating a snapshot")
@@ -76,34 +98,33 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
 2. 
    ![AWS Snapshot Example](./images/action2.png "Creating a snapshot")
    
-4. Navigate to "Image and templates" > "Create image"
-5. 
-   ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
+3. Navigate to "Image and templates" > "Create image"
+ 
+   ![AWS Snapshot Example](./images/.png "Creating a snapshot")
    
-7. In the "Create image" dialog:
+4. In the "Create image" dialog:
    - Enter an image name
    - Add description (optional but recommended)
+
+     ![AWS Snapshot Example](./images/imagediscription.png "Creating a snapshot")
+     
    - Configure other options as needed
      
-  ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
 
-8. Click "Create image"
-9. 
-   ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
+5. Click "Create image"
+ 
 
 ### Step 4: Check AMI Status
 1. In the left sidebar, click "AMIs" under "Images"
-2. 
-   ![AWS Snapshot Example](./images/image.png "Creating a snapshot")
    
-   ![AWS Snapshot Example](./images/imagediscription.png "Creating a snapshot")
    
-4. Your new AMI will appear with status "pending"
-5. 
-   ![AWS Snapshot Example](./images/snapshot-example.png "Creating a snapshot")
+   ![AWS Snapshot Example](./images/imgsuccess.png "Creating a snapshot")
    
-7. Wait for status to change to "available" before use
-8. 
+2. Your new AMI will appear with status "pending"
+ 
+   
+3. Wait for status to change to "available" before use
+ 
    ![AWS Snapshot Example](./images/imgsuccess.png "Creating a snapshot")
 
 ## Additional Resources

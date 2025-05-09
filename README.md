@@ -1,4 +1,4 @@
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/fd23c13c-1b5e-4a81-9a3b-4df9da9a183b" /># AWS EC2 Snapshot Creation Guide
+# AWS EC2 Snapshot Creation Guide
 
 This guide provides step-by-step instructions for creating snapshots of your Amazon EC2 instances and EBS volumes.
 

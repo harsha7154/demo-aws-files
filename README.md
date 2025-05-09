@@ -30,8 +30,14 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
 
 ### Step 2: Navigate to EC2 Dashboard
 1. From the AWS Services menu, select "EC2" under "Compute"
+
+2. ec2 dash board.
    
    ![AWS Snapshot Example](./images/ec21.png "Creating a snapshot")
+
+3.select "instance".
+
+![AWS Snapshot Example](./images/ec2ins1.png "Creating a snapshot")
 
 ### Step 3: Locate Your EBS Volume
 1. In the EC2 Dashboard, find the "Elastic Block Store" section in the left sidebar
@@ -66,21 +72,18 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
      
    - Add tags if needed (recommended for organization)
 
-     ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
      
 5. Click "Create snapshot"
 
 ### Step 5: Verify Snapshot Creation
 1. In the left sidebar, click "Snapshots" under "Elastic Block Store"
-
-
-
-   ![AWS Snapshot Example](./images/snap1.png "Creating a snapshot")
    
 2. Your new snapshot will appear in the list (it may take a few moments)
 3. The status will change from "pending" to "completed" when ready
    
    ![AWS Snapshot Example](./images/pending.png "Creating a snapshot")
+
+4.creation completed status.
    
    ![AWS Snapshot Example](./images/snapcomple.png "Creating a snapshot")
 

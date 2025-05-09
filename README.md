@@ -26,7 +26,7 @@ An AWS snapshot is a point-in-time copy of your Amazon Elastic Block Store (EBS)
 1. Go to [AWS Management Console](https://aws.amazon.com/console/)
 2. Sign in with your credentials
    
-   ![AWS Snapshot Example](./images/credlogin.png "Creating a snapshot")
+   ![AWS Snapshot Example](./images/ "Creating a snapshot")
 
 ### Step 2: Navigate to EC2 Dashboard
 1. From the AWS Services menu, select "EC2" under "Compute"
